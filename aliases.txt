@@ -1,0 +1,22 @@
+# Navigation 
+alias .='cd ./'
+alias ..='cd ../'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias w='cd ~/workspace'
+alias :q='exit'
+
+# Convenience because I can't type
+alias l='ls'
+alias sl='ls'
+alias vmi='vim $1'
+alias ks='ls'
+
+# Git stuff
+alias gitk='gitk --all'
+alias gs='git status'
+
+# Haskell specific 
+alias b='stack build'
+alias b.='b'
+alias fw='stack build --file-watch --fast'
